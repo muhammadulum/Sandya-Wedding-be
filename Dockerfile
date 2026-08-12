@@ -1,5 +1,5 @@
 # Menggunakan base image Node.js versi LTS berbasis Alpine Linux yang sangat ringan
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Menentukan direktori kerja di dalam container
 WORKDIR /app
